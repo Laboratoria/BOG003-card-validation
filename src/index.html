@@ -14,13 +14,58 @@
     
     </header>
     <main class="parrafo">
+      <div id="pregunta">
 
-      <p>¿Cómo validar si una tarjeta de ayuda social del Banco Agrario    es válida?<br>
+      <p> ¿Cómo validar si una tarjeta de ayuda social del Banco Agrario es válida?</p><br>
+      <div id="respuesta"></div>
 
-        La tarjeta debito del banco agrario sé puede validar con este  valioso verificador de tarjeta debito online.<br> 
+        <p> tarjeta debito del banco agrario sé puede validar con este  valioso verificador de tarjeta debito online.<br> 
         Presione en el boton de empezar a validar, esperamos que sea de su utilidad.</p> <br>
 
-        <button id=validar type="button">Validar</button>  
+        <button id=validar type="button" onclick="empezarValidar()" >Empezar a validar</button>
+      </div>  
+       
+          
+          
+        
+
+        <div id="contenedor">
+          <h3>
+            Para validar su tarjeta siga los siguientes pasos:
+          </h3>
+          <div id="pasos">
+          <p>1. Ingrese el numero de tarjeta que 
+            apaparece en la parte frontal
+            de la tarjeta, es un numero de 16 digitos </p>
+            
+           <p>2. Ingrese el nombre del propietario de 
+              la tarjeta.</p>
+              <p>3. Ingrese la fecha de vencimiento</p>
+              <p>4. Dale click en el boton validar</p>
+              
+              </div>
+            <div class="caja" >              
+                <img src="tarjeta.png" alt="tarjeta" class="tarjeta" >
+                <div class="pt1"> <label for="tarjeta"> Inserte el numero de tarjeta </label><br>
+                <input type="number" id="card_number"></div>
+                <div class="pn2"><label for="nombre"> Inserte su nombre </label> <br>
+                  <input type="name" id="card_name"></div>
+                  <div class="fecha"><label for="fecha">Vence </label> <br>
+                    <input type="number" id="date"></div>
+              </div>
+            
+             
+          
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <button id=validar1 type="button" onclick="Validar()" > Validar</button>
+        <button id=validar2 type="button" onclick="Validartarjeta()" > Validar otra tarjeta</button>
+
+      
+        
 
     </main>
     <footer></footer>
