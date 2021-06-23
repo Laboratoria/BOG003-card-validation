@@ -1,0 +1,112 @@
+body{
+background: url(fondo.png);
+background-size: 100%;
+}
+
+header {
+text-align: justify; 
+font-family: cursive;
+position: fixed;
+left: 500px;
+top: 100px;
+
+
+
+}
+
+#pregunta {
+    font-family: cursive;
+    font-size: 20px;
+    text-align:justify;
+    position: fixed;
+    left: 500px;
+    top: 300px;
+
+}
+#validar {
+background: rgba(255, 255, 0, 0.808);
+cursor: pointer;
+position: fixed;
+left: 7800px;
+top: 550px;
+
+}
+h3{
+    margin-left: 50px;
+    font-family: cursive;
+    font-size: 30px;
+    
+}
+#pasos{
+    margin-left: 50px;
+    font-family: cursive; 
+    font-size: 20px;
+    line-height: 50%;
+}
+.tarjeta {
+    float: right;
+    margin-right: 150px;
+    margin-top: -180px;
+    width: 350px;
+    
+}
+#validar1 {
+    background: rgba(255, 255, 0, 0.808);
+    cursor: pointer;
+    
+    }
+    #validar2 {
+        background: rgba(255, 255, 0, 0.808);
+        cursor: pointer;
+        
+        }
+.pt1{
+    position: fixed;
+    right: 300px;
+    top: 77%;
+   
+    
+}
+#card_number{
+    border: 0px;
+    background-color: rgb(175, 174, 174);
+
+}
+.pn2{
+    position: fixed;
+    right: 200px;
+    top: 85%;
+   
+    
+}
+#card_name{
+    border: 0px;
+    background-color: rgb(175, 174, 174);
+
+}
+.fecha{
+    position: fixed;
+    right: 420px;
+    top: 85%;
+}
+#date{
+    width: 50px;
+    height: 10px;
+    border: 0px;
+    background-color: rgb(175, 174, 174);
+}
+#validar1{
+    position: fixed;
+    right: 310PX;
+
+
+
+}
+#validar2{
+    display: none;
+    
+
+}
+#contenedor{
+    display: none
+}
