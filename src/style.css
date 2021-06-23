@@ -4,8 +4,12 @@ background-size: 100%;
 }
 
 header {
-text-align: center; 
+text-align: justify; 
 font-family: cursive;
+position: fixed;
+left: 500px;
+top: 100px;
+
 
 
 }
@@ -13,11 +17,18 @@ font-family: cursive;
 #pregunta {
     font-family: cursive;
     font-size: 20px;
-    text-align: center;
+    text-align:justify;
+    position: fixed;
+    left: 500px;
+    top: 300px;
+
 }
 #validar {
 background: rgba(255, 255, 0, 0.808);
 cursor: pointer;
+position: fixed;
+left: 7800px;
+top: 550px;
 
 }
 h3{
@@ -95,4 +106,12 @@ h3{
     display: none;
     
 
+}
+#contenedor{
+    display: none;
+}
+#principal{
+    
+
+    
 }
