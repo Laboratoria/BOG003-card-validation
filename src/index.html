@@ -1,76 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="principal">
     <header class="titulo">
-      <div id="principal">
-     <h1 class="titulo1"> Válida el número tu tarjeta debito con KZ</h1>
-     <br>
-     <h2 class="subtitulo"> Valide su tarjeta debito de ayuda social del Banco Agrario</h2>
-     <br>
-    
+      <h1 class="titulo1"> Válida el número tu tarjeta debito con KZ</h1>
+      <br>
+      <h2 class="subtitulo"> Valide su tarjeta debito de ayuda social del Banco Agrario</h2>
+      <br>
+
     </header>
     <main class="parrafo">
       <div id="pregunta">
 
-      <p> ¿Cómo validar si una tarjeta de ayuda social del Banco Agrario es válida?</p><br>
-      <div id="respuesta"></div>
+        <p> ¿Cómo validar si una tarjeta de ayuda social del Banco Agrario es válida?</p><br>
+        <div id="respuesta"></div>
 
-        <p> tarjeta debito del banco agrario sé puede validar con este  valioso verificador <br>
-          de tarjeta debito online.<br> 
-        Presione en el boton de empezar a validar, esperamos que sea de su utilidad.</p> <br>
+        <p> tarjeta debito del banco agrario sé puede validar con este valioso verificador <br>
+          de tarjeta debito online.<br>
+          Presione en el boton de empezar a validar, esperamos que sea de su utilidad.</p> <br>
 
-      </div>  
-    
-    <button id=validar type="submit" onclick="mostrarTarjeta();" >Empezar a validar</button>
-       
+      </div>
+
+      <button id=validar type="button">Empezar a validar</button>
+
   </div>
-          
-        
 
-        <div id="contenedor">
-          <h3>
-            Para validar su tarjeta siga los siguientes pasos:
-          </h3>
-          <div id="pasos">
-          <p>1. Ingrese el numero de tarjeta que 
-            apaparece en la parte frontal
-            de la tarjeta, es un numero de 16 digitos. </p>
-            
-           <p>2. Ingrese el nombre del propietario de 
-              la tarjeta.</p>
-              <p>3. Ingrese la fecha de vencimiento</p>
-              <p>4. Dale click en el boton validar</p>
-              <button id=validar1 type="submit" onclick="validar()" > Validar</button>
-              
-              </div>
-            <div class="caja" >              
-                <img src="tarjeta.png" alt="tarjeta" class="tarjeta" >
-                <div class="pt1"> <label for="tarjeta"> Inserte el numero de tarjeta </label><br>
-                <input type="number" id="card_number"></div>
-                <div class="pn2"><label for="nombre"> Inserte su nombre </label> <br>
-                  <input type="name" id="card_name"></div>
-                  <div class="fecha"><label for="fecha">Vence </label> <br>
-                    <input type="number" id="date"></div>
-                    <button id=validar2 type="button" onclick="Validartarjeta()" > Validar otra tarjeta</button>
-                    
-              </div>
-            
-             
-          
-        </div>
-      
 
-      
-        
 
-    </main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+  <div id="contenedor">
+    <h3>
+      Para validar su tarjeta siga los siguientes pasos:
+    </h3>
+    <div id="pasos">
+      <p>1. Ingrese el numero de tarjeta que
+        apaparece en la parte frontal
+        de la tarjeta, es un numero de 16 digitos. </p>
+
+      <p>2. Ingrese el nombre del propietario de
+        la tarjeta.</p>
+      <p>3. Ingrese la fecha de vencimiento</p>
+      <p>4. Dale click en el boton validar</p>
+      <button id=validar1 type="submit" onclick="validar()"> Validar</button>
+
+    </div>
+    <div class="caja">
+      <img src="tarjeta.png" alt="tarjeta" class="tarjeta">
+      <div class="pt1"> <label for="tarjeta"> Inserte el numero de tarjeta </label><br>
+        <input type="number" id="card_number">
+      </div>
+      <div class="pn2"><label for="nombre"> Inserte su nombre </label> <br>
+        <input type="name" id="card_name">
+      </div>
+      <div class="fecha"><label for="fecha">Vence </label> <br>
+        <input type="number" id="date">
+      </div>
+      <button id=validar2 type="button" onclick="Validartarjeta()"> Validar otra tarjeta</button>
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+  </main>
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
