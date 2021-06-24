@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="titulo">
-      
+      <div id="principal">
      <h1 class="titulo1"> Válida el número tu tarjeta debito con KZ</h1>
      <br>
      <h2 class="subtitulo"> Valide su tarjeta debito de ayuda social del Banco Agrario</h2>
@@ -26,9 +27,9 @@
 
       </div>  
     
-    <button id=validar type="button" onclick="empezarValidar()" >Empezar a validar</button>
+    <button id=validar type="submit" onclick="mostrarTarjeta();" >Empezar a validar</button>
        
-          
+  </div>
           
         
 
@@ -45,7 +46,7 @@
               la tarjeta.</p>
               <p>3. Ingrese la fecha de vencimiento</p>
               <p>4. Dale click en el boton validar</p>
-              <button id=validar1 type="button" onclick="Validar()" > Validar</button>
+              <button id=validar1 type="submit" onclick="validar()" > Validar</button>
               
               </div>
             <div class="caja" >              
@@ -56,17 +57,14 @@
                   <input type="name" id="card_name"></div>
                   <div class="fecha"><label for="fecha">Vence </label> <br>
                     <input type="number" id="date"></div>
+                    <button id=validar2 type="button" onclick="Validartarjeta()" > Validar otra tarjeta</button>
                     
               </div>
             
              
           
         </div>
-        <br>
-        <br>
-        <br>
-
-        <button id=validar2 type="button" onclick="Validartarjeta()" > Validar otra tarjeta</button>
+      
 
       
         
