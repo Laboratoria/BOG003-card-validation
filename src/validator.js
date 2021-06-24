@@ -1,22 +1,13 @@
-function mostrarTarjeta() {
-  var contenedor= document.getElementById("contenedor");
-
-  if(contenedor.style.display == "none"){
-      mostrar();
-      document.getElementById("boton").value = "Validar"
-  }
-  else{
-      ocultar();
-      document.getElementById("boton").value = "Validar"
-
-  }
-  
+function mostrarTarjeta(){
+  console.log("hola")
+  document.getElementById("contenedor").style.display = "block";
+  document.getElementById("principal").style.display = "none";
 }
 
 
 
 const validator = {
-  // ...
-};
+  mostrarTarjeta
+}
 
 export default validator;
