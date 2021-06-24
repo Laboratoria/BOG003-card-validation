@@ -41,12 +41,13 @@ h3{
     margin-left: 50px;
     font-family: cursive; 
     font-size: 20px;
-    line-height: 50%;
+    line-height: 20px;
+    
 }
 .tarjeta {
     float: right;
     margin-right: 150px;
-    margin-top: -180px;
+    margin-top: 30px;
     width: 350px;
     
 }
@@ -63,7 +64,7 @@ h3{
 .pt1{
     position: fixed;
     right: 300px;
-    top: 77%;
+    top: 52%;
    
     
 }
@@ -75,7 +76,7 @@ h3{
 .pn2{
     position: fixed;
     right: 200px;
-    top: 85%;
+    top: 58%;
    
     
 }
@@ -87,7 +88,7 @@ h3{
 .fecha{
     position: fixed;
     right: 420px;
-    top: 85%;
+    top: 58%;
 }
 #date{
     width: 50px;
@@ -98,11 +99,12 @@ h3{
 #validar1{
     position: fixed;
     right: 310PX;
+    top: 550px;
 
 
 
 }
 
 #contenedor{
-    display: none
+    display: none;
 }
