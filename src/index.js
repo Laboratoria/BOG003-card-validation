@@ -1,3 +1,10 @@
 import validator from './validator.js';
 
-console.log(validator);
+document.getElementById("validar").addEventListener("click", function () {
+    validator.mostrarTarjeta();
+});
+
+
+
+
+

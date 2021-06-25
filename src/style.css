@@ -35,35 +35,45 @@ h3{
     margin-left: 50px;
     font-family: cursive;
     font-size: 30px;
+    position: fixed;
+    top: 200px;
     
 }
 #pasos{
     margin-left: 50px;
     font-family: cursive; 
     font-size: 20px;
-    line-height: 50%;
+    line-height: 20px;
+    position: fixed;
+    top: 280px;
 }
 .tarjeta {
     float: right;
     margin-right: 150px;
-    margin-top: -180px;
+    margin-top: 280px;
     width: 350px;
     
 }
 #validar1 {
     background: rgba(255, 255, 0, 0.808);
     cursor: pointer;
+    position: fixed;
+    right: 400PX;
+    top: 550px;
     
     }
     #validar2 {
         background: rgba(255, 255, 0, 0.808);
         cursor: pointer;
+        position: fixed;
+        right: 250PX;
+        top: 550px;
         
         }
 .pt1{
     position: fixed;
     right: 300px;
-    top: 77%;
+    top: 52%;
    
     
 }
@@ -75,7 +85,7 @@ h3{
 .pn2{
     position: fixed;
     right: 200px;
-    top: 85%;
+    top: 58%;
    
     
 }
@@ -87,7 +97,7 @@ h3{
 .fecha{
     position: fixed;
     right: 420px;
-    top: 85%;
+    top: 58%;
 }
 #date{
     width: 50px;
@@ -95,18 +105,7 @@ h3{
     border: 0px;
     background-color: rgb(175, 174, 174);
 }
-#validar1{
-    position: fixed;
-    right: 310PX;
 
-
-
-}
-#validar2{
-    display: none;
-    
-
-}
 #contenedor{
-    display: none
+    display: none;
 }
