@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+.nav {
+background:rgba(248, 210, 210, 0.986);
+font-size: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 80px;
+padding: 40px;
+margin: 0px;
+}
+
+.logo-nav {
+    width: 200px;
+}
+
+.icon-cart {
+    width: 40px;
+}
+
+
