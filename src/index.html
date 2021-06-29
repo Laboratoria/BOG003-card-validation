@@ -48,24 +48,25 @@
         la tarjeta.</p>
       <p>3. Ingrese la fecha de vencimiento</p>
       <p>4. Dale click en el boton validar</p>
-      <button id=validar1 type="submit" onclick="validar()"> Validar</button>
+      <button id=validar1 type="submit"> Validar</button>
 
     </div>
+    <form id="newForm">
     <div class="caja">
       <img src="tarjeta.png" alt="tarjeta" class="tarjeta">
       <div class="pt1"> <label for="tarjeta"> Inserte el numero de tarjeta </label><br>
-        <input type="number" id="card_number">
+        <input type="text" id="card_number" maxlength="16">
       </div>
       <div class="pn2"><label for="nombre"> Inserte su nombre </label> <br>
         <input type="name" id="card_name">
       </div>
       <div class="fecha"><label for="fecha">Vence </label> <br>
-        <input type="number" id="date">
+        <input type="text" id="date" maxlength="5">
       </div>
-      <button id=validar2 type="button" onclick="Validartarjeta()"> Validar otra tarjeta</button>
+      <button id="validar2" type="reset"> Validar otra tarjeta</button>
 
     </div>
-
+  </form>
 
 
   </div>

@@ -10,8 +10,6 @@ position: fixed;
 left: 500px;
 top: 100px;
 
-
-
 }
 
 #pregunta {
@@ -50,24 +48,32 @@ h3{
 .tarjeta {
     float: right;
     margin-right: 150px;
-    margin-top: 280px;
+    margin-top: 330px;
     width: 350px;
     
+}
+.box{
+    display: flex;
+}
+.uno{
+    flex: 11;
 }
 #validar1 {
     background: rgba(255, 255, 0, 0.808);
     cursor: pointer;
     position: fixed;
-    right: 400PX;
-    top: 550px;
+    right: 380PX;
+    top: 580px;
+    
+   
     
     }
-    #validar2 {
+     #validar2 {
         background: rgba(255, 255, 0, 0.808);
         cursor: pointer;
         position: fixed;
         right: 250PX;
-        top: 550px;
+        top: 580px;
         
         }
 .pt1{
@@ -77,35 +83,42 @@ h3{
    
     
 }
-#card_number{
-    border: 0px;
-    background-color: rgb(175, 174, 174);
 
-}
+    #card_number {
+        border: 0px;
+    background-color: rgb(175, 174, 174);
+    }
+
+        
+
+
 .pn2{
     position: fixed;
-    right: 200px;
+    right: 220px;
     top: 58%;
    
     
 }
 #card_name{
+    width: 120px;
     border: 0px;
     background-color: rgb(175, 174, 174);
 
 }
 .fecha{
     position: fixed;
-    right: 420px;
+    right: 360px;
     top: 58%;
 }
 #date{
-    width: 50px;
-    height: 10px;
+    width: 110px;
+    height: 20px;
     border: 0px;
     background-color: rgb(175, 174, 174);
 }
 
 #contenedor{
-    display: none;
+   display: none;    
 }
+
+
