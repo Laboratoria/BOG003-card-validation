@@ -50,3 +50,18 @@ main .product-container {
     justify-content: space-evenly;
 }
 
+/* footer links */
+
+.social-media {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.links a i {
+    font-size: 2rem;
+
+
+}
