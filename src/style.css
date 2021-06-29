@@ -22,4 +22,31 @@ margin: 0px;
     width: 40px;
 }
 
+/* productos */
+
+.product-container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: none;
+}
+
+.product {
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.404);
+    background-color: white;
+    text-align: center;
+
+}
+
+.product img {
+    width: 450px;
+}
+
+main .product-container {
+    display: flex;
+    justify-content: space-evenly;
+}
 
