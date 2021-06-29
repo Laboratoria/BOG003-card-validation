@@ -50,6 +50,42 @@ main .product-container {
     justify-content: space-evenly;
 }
 
+/* form */
+.content {
+    margin: 30px 60px;
+}
+
+.content label {
+    display: block;
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+.form-register {
+    margin-top: 80px;
+}
+
+.controls {
+    width: 400px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border: 1px solid;
+    padding: 14px 12px;
+    margin: 8px 0;
+}
+
+.buttons{
+    background: #E0C1C1;
+    border: none;
+    color: black;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    padding: 20px 60px;
+    cursor: pointer;
+}
+
 /* footer links */
 
 .social-media {
