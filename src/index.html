@@ -6,7 +6,7 @@
     <!-- Logo de la empresa en la pestaña de nuestra página-->
     <link rel="icon" href="img/logo.jpg">
     <!-- Enlace para el uso de iconos en el header-->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -46,34 +46,33 @@
           <input class="controls" type="number" name="icard"> 
           
           <label for="nombre" >Nombre</label>
-          <input class="controls" " type="text" name="name">
+          <input class="controls" type="text" name="name">
 
           <label for="surname" >Apellido</label>
-          <input class="controls" e" type="text" name="isurname"> 
+          <input class="controls" type="text" name="isurname"> 
 
           <label for="id" >Cédula</label>
-          <input class="controls" pe="text" name="iid"> 
+          <input class="controls" type="text" name="iid"> 
 
           <label for="city" >Ciudad</label>
           <input class="controls" type="text" name="icity">
 
           <label for="adress" >Dirección</label>
-          <input class="controls" " type="text" name="iadress"> 
+          <input class="controls" type="text" name="iadress"> 
 
           <label for="commune" >Barrio</label>
-          <input class="controls" e" type="text" name="icommune"> 
+          <input class="controls" type="text" name="icommune"> 
 
           <label for="phone" >Teléfono</label>
-          <input class="controls"  type="text" name="iphone"> 
+          <input class="controls" type="text" name="iphone"> 
 
           <label for="email" >Email</label>
-          <input class="controls"  type="email" name="iemail"> 
+          <input class="controls" type="email" name="iemail"> 
+          <br>
 
-          </br>
-
-              <button class="buttons" type="submit">Validar </button>
-              <button class="buttons" type="submit">Enviar</button>                
-              <button class="buttons" type="reset">Limpiar</button>
+              <button id="btnValidar" type="button" name="button">Validar </button>
+              <button id="enviar" type="submit">Enviar</button>                
+              <button id="buttons" type="reset">Limpiar</button>
           </form>
         </div>
 
@@ -84,14 +83,15 @@
 
     <!--Footer-->
     <footer class="social-media">
-      <p>@ 2021. Cool Design, Adriana & Laura</p>
+      <p>@ 2021. Cool Design, Adriana y Laura</p>
       <div class="links">
         <a ref="#">
-          <i class='bx bxl-instagram'></i>
+          <i class="bx bxl-instagram"></i>
         </a>
         <a ref="#">
-        <i class='bx bxl-facebook-square'></i>
+        <i class="bx bxl-facebook-square"></i>
         </a>
+      </div>
     </footer>
     <script src="index.js" type="module"></script>
   </body>
