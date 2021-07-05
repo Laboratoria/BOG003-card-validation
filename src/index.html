@@ -17,9 +17,9 @@
         <!--Titulo principal, nombre de la tienda-->
         <h1>COOL DESIGN</h1>
         <!--Boton al carrito de compras-->
-        <a href="#cart"><img src="img/cart.png" alt="Carrito de Compras" class="icon-cart"></a>
+        <a href="javascript:void(0);" onclick="mostrarpantalla();"><img src="img/cart.png" alt="Carrito de Compras" class="icon-cart"></a>
 
-      </div>
+      </div> 
     </header>
     <main>
         <!--productos de la tienda-->
@@ -34,51 +34,43 @@
         </div>
       </div>
       
-      <div class="content">
+      <section class="content">      
+       
         <h4 id="cart" >Realizar Compra</h4>
 
         <!--Formulario de la compra-->
-        <form class="form-register" method="POST" >
+        <form class="form-register">
+
+          <h3 id="text-center" >Realizar Compra</h3>
 
           <img src="img/tarjeta.png">
 
-          <label for="card" >Ingresa el número de la Tarjeta de Crédito</label>
-          <input id="tarjetaDeCredito" type="text"> 
+          <label for="card">Ingresa el número de la Tarjeta de Crédito</label>
+          <input id="tarjetaDeCredito" type="text" required=""> 
           
-          <label for="nombre" >Nombre</label>
-          <input class="controls" type="text" name="name">
+          <label for="name">Nombre y apellidos</label>
+          <input type="text" name="name">
 
-          <label for="surname" >Apellido</label>
-          <input class="controls" type="text" name="isurname"> 
-
-          <label for="id" >Cédula</label>
-          <input class="controls" type="text" name="iid"> 
-
-          <label for="city" >Ciudad</label>
-          <input class="controls" type="text" name="icity">
+          <label for="city">Ciudad</label>
+          <input type="text" name="icity">
 
           <label for="adress" >Dirección</label>
-          <input class="controls" type="text" name="iadress"> 
+          <input type="text" name="iadress"> 
 
           <label for="commune" >Barrio</label>
-          <input class="controls" type="text" name="icommune"> 
+          <input type="text" name="icommune"> 
 
           <label for="phone" >Teléfono</label>
-          <input class="controls" type="text" name="iphone"> 
+          <input type="text" name="iphone"> 
 
           <label for="email" >Email</label>
-          <input class="controls" type="email" name="iemail"> 
+          <input type="email" name="iemail"> 
           <br>
 
-              <button id="btnValidar" type="button" name="button">Validar </button>
-              <button id="enviar" type="submit">Enviar</button>                
-              <button id="buttons" type="reset">Limpiar</button>
-          </form>
-        </div>
-
-        <div class="productos">
-          <h1>Camisetas</h1>
-        </div>
+          <button id="btnValidar" type="button" name="button">Validar </button>
+          <button id="enviar" type="submit">Enviar</button>
+        </form>
+      </section>
     </main>
 
     <!--Footer-->
