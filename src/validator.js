@@ -27,19 +27,19 @@ const validator = {
           creditCardNumber[i] = parseInt(sumNumber[0])+parseInt(sumNumber[1]);
           //console.log("Numeros Sumados" + creditCardNumber[i]);
         }        
-        //console.log(" position "+i+" :value "+creditCardNumber[i]);
+        console.log(" position "+i+" :value "+creditCardNumber[i]);
       }      
       //Acumulador, (Suma el total de todos los números)
       totalSum = totalSum + parseInt(creditCardNumber[i]);
-      //console.log("Total suma" + totalSum);
+      console.log("Total suma" + totalSum);
 
     }
     //Verificar que el resto de la suma entre 10 sea igual a 0
     let validCard=totalSum % 10 === 0 ? true : false;
 
-    return validCard;
-    //console.log(validCard);
-    //console.log(creditCardNumber);
+    //return validCard;
+    console.log(validCard);
+    console.log(creditCardNumber);
 
   },
 
