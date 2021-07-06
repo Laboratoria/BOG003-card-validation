@@ -28,8 +28,8 @@ document.getElementById("btnValidar").addEventListener("click", () => {
 
 //function enviar(){
 //    let enviarpantalla = document.getElementById("enviarpantalla");
-    document.getElementById('container').style.display = "";
-    document.getElementById('product-container').style.display = "block";
-    document.getElementById('content').style.display = "none";
-    document.getElementById('social-media').style.display = "";
+//    document.getElementById('container').style.display = "";
+//    document.getElementById('product-container').style.display = "block";
+//    document.getElementById('content').style.display = "none";
+//    document.getElementById('social-media').style.display = "";
 //}
