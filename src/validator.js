@@ -42,11 +42,6 @@ const validator = {
     //console.log(creditCardNumber);
 
   },
-
-  //maskify:(creditCardNumber) =>{
-
-  //}
-
 };
 
 export default validator;
