@@ -10,20 +10,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="container">
+    <header id="container">
       <div class="nav">
         <!-- Logo de la Tienda -->
         <img src="img/logo.jpg" alt="Logo" lass= >
         <!--Titulo principal, nombre de la tienda-->
         <h1>COOL DESIGN</h1>
         <!--Boton al carrito de compras-->
-        <a href="javascript:void(0);" onclick="mostrarpantalla();"><img src="img/cart.png" alt="Carrito de Compras" class="icon-cart"></a>
+        <!--<a href="#cart" id="mostrarpantalla"><img src="img/cart.png" alt="Carrito de Compras" class="icon-cart"></a>-->
+        <button id="iconCart"><img src="img/cart.png"></button>
 
       </div> 
     </header>
     <main>
         <!--productos de la tienda-->
-      <div class="product-container">
+      <div id="product-container">
         <div class="product">
             <img src="img/1.jpg">
             <h3>Conjunto Casual</h3>
@@ -34,12 +35,12 @@
         </div>
       </div>
       
-      <section id="content">      
+      <section id="content">             
+
+        <h3 id="compra" >Realizar Compra</h3>
         
         <!--Formulario de la compra-->
-        <form class="form-register">
-
-          <h3 id="text-center" >Realizar Compra</h3>
+        <form id="form-register">
 
           <img src="img/tarjeta.png">
 
@@ -60,7 +61,8 @@
           <br>
 
           <button id="btnValidar" type="button" name="button">Validar </button>
-          <button id="enviar" type="submit" onclick="enviar()">Enviar</button>
+          <button id="enviar" type="submit">Enviar</button>
+          <br>
         </form>
       </section>
     </main>

@@ -25,7 +25,6 @@ margin: 0px;
 /* productos */
 
 .product-container {
-    display: block;
     flex-wrap: wrap;
     justify-content: space-evenly;
     border: none;
@@ -52,37 +51,28 @@ main .product-container {
 }
 
 /* form */
-#content {
+.content {
     margin: 30px 60px;
-    display: block;
 }
 
-.content label {
-    display: block;
+#content label {
+    display: flex;
     font-size: 16px;
     font-weight: 300px;
 }
 
-.form-register {
-    margin-top: 80px;
+#form-register {
+    margin-top: 400px;
+    background: #24303c;
 }
 
-.controls {
-    width: 400px;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: sans-serif;
-    border: 1px solid;
-    padding: 14px 12px;
-    margin: 8px 0;
-}
 
-.buttons{
+button{
     background: #E0C1C1;
-    border: none;
+    opacity: 2;
+    border: 1px;
     color: black;
-    font-size: 18px;
-    display: block;
+    font-size: 14px;
     margin: auto;
     padding: 20px 60px;
     cursor: pointer;
