@@ -34,10 +34,8 @@
         </div>
       </div>
       
-      <section class="content">      
+      <section id="content">      
        
-        <h4 id="cart" >Realizar Compra</h4>
-
         <!--Formulario de la compra-->
         <form class="form-register">
 
@@ -46,7 +44,7 @@
           <img src="img/tarjeta.png">
 
           <label for="card">Ingresa el número de la Tarjeta de Crédito</label>
-          <input id="tarjetaDeCredito" type="text" required=""> 
+          <input id="tarjetaDeCredito" type="text"/> 
           
           <label for="name">Nombre y apellidos</label>
           <input type="text" name="name">
@@ -67,8 +65,9 @@
           <input type="email" name="iemail"> 
           <br>
 
-          <button id="btnValidar" type="button" name="button">Validar </button>
-          <button id="enviar" type="submit">Enviar</button>
+          <button id="btnValidar" type="button" name="button">Validar</button>
+          
+          <button id="enviar" type="submit" onclick="enviar()">Enviar</button>
         </form>
       </section>
     </main>
