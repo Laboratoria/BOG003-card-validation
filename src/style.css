@@ -4,27 +4,27 @@ body {
 }
 
 .nav {
-background:rgba(248, 210, 210, 0.986);
-font-size: 40px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-height: 80px;
-padding: 40px;
-margin: 0px;
+    background:rgba(248, 210, 210, 0.986);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 40px;
+    margin: 0px;    
 }
 
 .logo-nav {
     width: 200px;
 }
 
-.icon-cart {
+#icon-cart {
     width: 40px;
 }
 
 /* productos */
 
-.product-container {
+#product-container {
     flex-wrap: wrap;
     justify-content: space-evenly;
     border: none;
@@ -51,23 +51,40 @@ main .product-container {
 }
 
 /* form */
-.content {
+#compra {
+    font-size: 30px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+#content {
     margin: 30px 60px;
+    
 }
 
-#content label {
+/*#form-register label {
     display: flex;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300px;
+}*/
+
+form {
+    margin: 0 auto;
+    padding: 20px;
+    width:550px;
+    background-color: #24303c;
+    font-family: sans-serif;
 }
 
-#form-register {
-    margin-top: 400px;
-    background: #24303c;
+#form-register img{
+    width: 450px;
+    display: block;
+    margin: auto;    
 }
 
 
-button{
+
+#enviar, #btnValidar{
     background: #E0C1C1;
     opacity: 2;
     border: 1px;
