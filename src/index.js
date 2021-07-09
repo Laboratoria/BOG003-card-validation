@@ -9,7 +9,7 @@ import validator from './validator.js';
     let iconCart=document.getElementById("iconCart");
     iconCart.addEventListener("click",mostrarpantalla);
 
-    function mostrarpantalla() { 
+    function mostrarpantalla  () { 
         //let pantalla1 = document.getElementById("pantalla1");
         document.getElementById('product-container').style.display = "none";
         document.getElementById('content').style.display = "block";        
