@@ -35,7 +35,7 @@ import validator from './validator.js';
 
     if (resultado === true) {
         alert("TARJETA VALIDA");
-        document.write(validator.maskify(document.getElementById("tarjetaDeCredito").value))
+        alert(validator.maskify(document.getElementById("tarjetaDeCredito").value))
         //console.log(validator.maskify(creditCardNumber),"maskify")
         } else if (resultado === false) {
          alert("TARJETA INVALIDA");
@@ -44,8 +44,9 @@ import validator from './validator.js';
     }
        //function mostrarResultado(maskify){
          //  document.getElementById("validar3").innerHTML = maskify()
-           
-             
+        
+       
+      
        //function maskifyTarjeta(creditCardNumber) {
         //document.getElementById('numCard').innerHTML = validator.maskify(creditCardNumber)
 //let creditCardNumber = document.getElementById("tarjetaDeCredito").value;
