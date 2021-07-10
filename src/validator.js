@@ -41,15 +41,16 @@ const validator = {
     //console.log(validCard);
     //console.log(creditCardNumber);
     },
+
     maskify:(creditCardNumber) => {
 
       let num = creditCardNumber.length;
-      let maskiNum = "";
+      let maskNum = "";
       for (let i=0; i < num - 4;i++)
-      { maskiNum += "#";
+      { maskNum += "#";
    
       }
-      return maskiNum + creditCardNumber.substring(maskiNum-4,maskiNum);
+      return maskNum + creditCardNumber.substring(num-4,num);
     }
   
   };
