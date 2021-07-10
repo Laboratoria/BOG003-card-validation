@@ -9,14 +9,14 @@ import validator from './validator.js';
     let iconCart=document.getElementById("iconCart");
     iconCart.addEventListener("click",mostrarpantalla);
 
-    function mostrarpantalla() { 
+    function mostrarpantalla  () { 
         //let pantalla1 = document.getElementById("pantalla1");
         document.getElementById('product-container').style.display = "none";
         document.getElementById('content').style.display = "block";        
         document.getElementById('compra').style.display = "block";
     }
 
-    let enviar=document.getElementById("enviar");
+    /*let enviar=document.getElementById("enviar");
     enviar.addEventListener("click",mostrarpantalla1);
 
     const mostrarpantalla1 = () =>{
@@ -24,14 +24,25 @@ import validator from './validator.js';
        document.getElementById('product-container').style.display = "block";
        document.getElementById('content').style.display = "none";
     }
-
-// eslint-disable-next-line no-console
+*/
 //console.log(validator.maskify());
 //validator.isValid("123");
     document.getElementById("btnValidar").addEventListener("click", () => {
     
     let resultado = validator.isValid(document.getElementById("tarjetaDeCredito").value);
-    alert(resultado);
-    }
+    //alert(resultado);
+    
 
-);
+    if (resultado === true) {
+        alert("TARJETA VALIDA");
+        //console.log(validator.maskify(creditCardNumber),"maskify")
+        } else if (resultado === false) {
+         alert("TARJETA INVALIDA");
+        alert(validator.maskify(document.getElementById("tarjetaDeCredito").value),"maskify")
+        }
+         
+//let creditCardNumber = document.getElementById("tarjetaDeCredito").value;
+ })
+    
+
+;
