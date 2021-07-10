@@ -40,8 +40,18 @@ const validator = {
     return validCard;
     //console.log(validCard);
     //console.log(creditCardNumber);
+    },
+    maskify:(creditCardNumber) => {
 
-  },
-};
-
-export default validator;
+      let num = creditCardNumber.length;
+      let maskiNum = "";
+      for (let i=0; i < num - 4;i++)
+      { maskiNum += "#";
+   
+      }
+      return maskiNum + creditCardNumber.substring(maskiNum-4,maskiNum);
+    }
+  
+  };
+  
+  export default validator;
