@@ -46,9 +46,9 @@ const validator = {
 
       let num = creditCardNumber.length;
       let maskNum = "";
-      for (let i=0; i < num - 4;i++)
-      { maskNum += "#";
-   
+
+      for (let i=0; i < num - 4;i++){
+         maskNum += "#";   
       }
       return maskNum + creditCardNumber.substring(num-4,num);
     }
