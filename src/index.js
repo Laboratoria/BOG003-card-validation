@@ -18,10 +18,10 @@ import validator from './validator.js';
        document.getElementById('realizarcompra').style.display = "none";
     }
 
-    let btnCompra=document.getElementById("btnCompra");
+    /*let btnCompra=document.getElementById("btnCompra");
     btnCompra.addEventListener("click", mostrarpantalla3);
 
-    /*function mostrarpantalla3 () {
+    function mostrarpantalla3 () {
        let compraex = document.getElementById("compraex");
        document.getElementById('content').style.display = "none";
        document.getElementById('compra').style.display = "none";
