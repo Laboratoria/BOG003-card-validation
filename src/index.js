@@ -46,8 +46,9 @@ import validator from './validator.js';
     }
        //function mostrarResultado(maskify){
          //  document.getElementById("validar3").innerHTML = maskify()
-           
-             
+        
+       
+      
        //function maskifyTarjeta(creditCardNumber) {
         //document.getElementById('numCard').innerHTML = validator.maskify(creditCardNumber)
 //let creditCardNumber = document.getElementById("tarjetaDeCredito").value;
