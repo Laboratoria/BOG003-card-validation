@@ -95,7 +95,7 @@ label{
     font-size: 18px;
 }
 
-#btnCompra, #btnValidar{    
+#btnComprar, #btnValidar{    
     background: #f3cec1fa;
     color: black;
     border: 0;
@@ -124,3 +124,26 @@ label{
 
 
 }   
+
+#pantalla3{
+    font-size: 40px;
+    text-align: center;
+}
+
+#imagGreen{
+    width: 200px;
+    margin: 2px;
+}
+
+#btnRegresar{ 
+    background: #E0C1C1;
+    opacity: 2;
+    border: 1px;
+    color: black;
+    font-size: 14px;
+    margin: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    
+
+}
