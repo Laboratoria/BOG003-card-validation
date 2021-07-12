@@ -16,7 +16,8 @@ body {
 
 #iconCart{
     width: 25px; 
-    margin: 3px 10px 10px 750px;
+    margin: 3px 10px 10px 1120px;
+    position: absolute;
  }
 
 .product {
@@ -62,6 +63,7 @@ body {
     padding: 35px 30px;
     width: 450px;
     margin: -110px 400px;
+    position: relative;
 }
 
 .form-group{
