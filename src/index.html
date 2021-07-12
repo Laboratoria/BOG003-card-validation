@@ -18,7 +18,7 @@
         <h1>COOL DESIGN</h1>
         <!--Boton al carrito de compras-->
         <!--<a href="#cart" id="mostrarpantalla"><img src="img/cart.png" alt="Carrito de Compras" class="icon-cart"></a>-->
-        <button id="iconCart"><img src="img/cart.png"></button>
+        <img id="iconCart" src="img/cart.png">
 
       </div> 
     </header>
@@ -39,33 +39,33 @@
       
       <section id="content">      
         <h3 id="compra" >Realizar Compra</h3>
-        <!--Formulario de la compra-->
+        <!--Formulario de la compra-->  
+        <img id="tarjeta"src="img/tarjeta.png">      
         <form id="form-register">
-
-          <img src="img/tarjeta.png">
-
-          <label for="card">Ingresa el número de la Tarjeta de Crédito</label>
-
-          <input id="tarjetaDeCredito" type="text" > 
-          <br>
-
-          <label for="name">Nombre y apellidos</label>
-          <input type="text" name="name" >
-          <br>
-          <label for="city">Ciudad y dirección</label>
-          <input type="text" name="icity" >
-          <br>
-          <label for="phone" >Teléfono</label>
-          <input type="text" name="iphone" > 
-          <br>
-          <label for="email" >Email</label>
-          <input type="email" name="iemal" > 
-          <br>
+          <div class="form-group">
+            <label for="card">Tarjeta de Crédito</label>
+            <input id="tarjetaDeCredito" type="text" required=""> 
+            <br>  
+            <label for="name">Nombre y apellidos</label>
+            <input type="text" name="name">
+            <br>
+          </div>
+          <div class="form-group1">
+            <label for="city">Ciudad y dirección</label>
+            <input type="text" name="icity">
+            <br>
+            <label for="phone" >Teléfono</label>
+            <input type="text" name="iphone"> 
+            <br>
+            <label for="email" >Email</label>
+            <input type="email" name="iemal"> 
+            <br>
+          </div>         
+        </form>        
+        <div class="btns">
           <button id="btnValidar" type="button" name="button">Validar </button>
           <button id="btnCompra" type="submit" name="btncompra">Comprar</button>
-
-
-        </form>
+        </div>  
       </section>
       <section id="realizarcompra">      
         <h3>Tu compra ha sido exitosa</h3>
