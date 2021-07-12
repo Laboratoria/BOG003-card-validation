@@ -9,8 +9,8 @@ const validator = {
     //Función para invertir el numero de la Tarjeta de Credito
     creditCardNumber = creditCardNumber.split("").reverse();
     
-    //bucle ->
-    for (var i =0; i < creditCardNumber.length; i++) {
+    //bucle 
+    for (var i = 0; i < creditCardNumber.length; i++) {
     
       //aplicar la posición a los numeros pares o impares
       if (i % 2 === 1  ){
@@ -42,9 +42,10 @@ const validator = {
     //console.log(creditCardNumber);
     },
 
+    //Función maskify, oculta los 4 ultimos digito y enmascara lo demas digitos.
     maskify:(creditCardNumber) => {
 
-      let num = creditCardNumber.length;
+      let num = creditCardNumber.length;  
       let maskNum = "";
 
       for (let i=0; i < num - 4;i++){
