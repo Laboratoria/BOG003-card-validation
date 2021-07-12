@@ -19,7 +19,10 @@ body {
     margin: 3px 10px 10px 1120px;
     position: absolute;
  }
+#product-container {
+    text-align: center;
 
+}   
 .product {
     border-radius: 20px;
     display:inline-block;
