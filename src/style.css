@@ -19,10 +19,11 @@ body {
     margin: 3px 10px 10px 1120px;
     position: absolute;
  }
+
 #product-container {
     text-align: center;
-
 }   
+
 .product {
     border-radius: 20px;
     display:inline-block;
@@ -46,8 +47,9 @@ body {
 }
 
 #content {
-    margin: 5% auto;  
-
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 #form-register { 
@@ -63,9 +65,8 @@ body {
 #tarjeta{
     display: flex;
     justify-content: center;
-    padding: 35px 30px;
     width: 450px;
-    margin: -110px 400px;
+    margin: -45px 435px;
     position: relative;
 }
 
