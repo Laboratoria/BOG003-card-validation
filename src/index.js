@@ -15,7 +15,7 @@ import validator from './validator.js';
         document.getElementById('product-container').style.display = "none";
         document.getElementById('content').style.display = "block";        
         document.getElementById('compra').style.display = "block";        
-       document.getElementById('realizarcompra').style.display = "none";
+        document.getElementById('realizarcompra').style.display = "none";
     }
 
     /*let btnCompra=document.getElementById("btnCompra");

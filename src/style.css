@@ -4,19 +4,19 @@ body {
 }
 
 .nav {
-    background:rgba(248, 210, 210, 0.986);
+    background: #F8E1D8;
     font-size: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
     height: 80px;
     padding: 40px;
     margin: 0px;    
 }
 
-#icon-cart {
-    width: 40px;
-
+#iconCart{
+    width: 25px; 
+    margin: 3px 10px 10px 750px;
  }
 
 .product {
@@ -42,41 +42,71 @@ body {
 }
 
 #content {
-    margin: 30px 60px;
-    
+    margin: 5% auto;  
+
 }
 
-/*#form-register label {
+#form-register { 
     display: flex;
-    font-size: 18px;
-    font-weight: 300px;
-}*/
-
-form {
-    margin: 0 auto;
-    padding: 20px;
-    width:550px;
-    background-color: #24303c;
-    font-family: sans-serif;
-}
-
-#form-register img{
-    width: 450px;
-    display: block;
-    margin: auto;    
-}
-
-
-
-#enviar, #btnValidar{
-    background: #E0C1C1;
-    opacity: 2;
-    border: 1px;
-    color: black;
-    font-size: 14px;
+    justify-content: center;
+    width:500px;
+    padding: 25px 30px;
     margin: auto;
-    padding: 20px 60px;
+    font-family: sans-serif;
+    border-radius: 2px;
+}
+
+#tarjeta{
+    display: flex;
+    justify-content: center;
+    padding: 35px 30px;
+    width: 450px;
+    margin: -110px 400px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    margin-right: 2em;
+}
+
+.form-group1{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.form-group input {
+    width: 244px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:#9d9ed888;
+}
+
+.form-group1 input {
+    width: 244px;
+    height: 30px;
+    background-color: #9d9ed888;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 18px;
+}
+
+#btnCompra, #btnValidar{    
+    background: #f3cec1fa;
+    color: black;
+    border: 0;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 50px;
+    border-radius: 5px;
     cursor: pointer;
+}
+.btns {
+    text-align: center;
 }
 
 /* footer links */
@@ -93,4 +123,4 @@ form {
     font-size: 2rem;
 
 
-}
+}   
