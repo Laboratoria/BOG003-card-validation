@@ -42,19 +42,26 @@ import validator from './validator.js';
  }
 
 
-document.getElementById("btnValidar").addEventListener("click", () => {
-    
-    let resultado = validator.isValid(document.getElementById("tarjetaDeCredito").value);
+ document.getElementById("btnValidar").addEventListener("click", () => {
+    let creditCardNumber = document.getElementById('tarjetaDeCredito').value;
+    let resultado = validator.isValid(document.getElementById("tarjetaDeCredito").value);  
+    campoValido(creditCardNumber); 
+ 
+     function campoValido(){ 
+   if (creditCardNumber === "") {
+     alert ("Debes ingresar tu Número de Tarjeta");
+   } else  
 
-    if (resultado === true) {
-        alert("TARJETA VALIDA " + validator.maskify(document.getElementById("tarjetaDeCredito").value));
-       } else if (resultado === false) {
-         alert("TARJETA INVALIDA " + validator.maskify(document.getElementById("tarjetaDeCredito").value),"maskify")
-        
-    }
 
-       
- });
+ if (resultado === true) {
+  alert("TARJETA VALIDA " + validator.maskify(document.getElementById("tarjetaDeCredito").value));
+ } else if (resultado === false) {
+   alert("TARJETA INVALIDA " + validator.maskify(document.getElementById("tarjetaDeCredito").value),"maskify")
+  
+}
+
+}
+})
 
 
 
@@ -65,7 +72,6 @@ document.getElementById("btnValidar").addEventListener("click", () => {
 
     /*let btnCompra=document.getElementById("btnCompra");
     btnCompra.addEventListener("click", mostrarpantalla3);
-
     function mostrarpantalla3 () {
        let compraex = document.getElementById("compraex");
        document.getElementById('content').style.display = "none";
@@ -81,7 +87,6 @@ document.getElementById("btnValidar").addEventListener("click", () => {
     let resultado = validator.isValid(document.getElementById("tarjetaDeCredito").value);
     //alert(resultado);
     
-
     if (resultado === true) {
         alert("TARJETA VALIDA " + validator.maskify(document.getElementById("tarjetaDeCredito").value));
         //console.log(validator.maskify(creditCardNumber),"maskify")
