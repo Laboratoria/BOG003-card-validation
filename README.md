@@ -7,6 +7,7 @@
 
 ## Pantalla 1
 
+
 <img src="./img/pantalla_1.png" alt="pantalla_1">
 
 ## Pantalla 2
