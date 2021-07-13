@@ -1,6 +1,7 @@
 # COOL DESIGN LAURA & ADRIANA
 # Tarjeta de crédito válida
 
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
@@ -24,7 +25,7 @@ solamente contiene dígitos [0-9]); a todos los números que ocupan una posició
 par se les debe multiplicar por dos, si este número es mayor o igual a 10,
 debemos sumar los dígitos del resultado; el número a verificar será válido si
 la suma de sus dígitos finales es un múltiplo de 10.
-
+<img src="img/chek.png" alt="Logo"/>
 ![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
 ## 2. Resumen del proyecto
