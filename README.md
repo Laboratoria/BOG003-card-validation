@@ -15,7 +15,7 @@
 
 ## Pantalla 1
 
-<img src="img/pantalla_1.png" alt="pantalla_1">
+<img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/pantalla_1.png" alt="pantalla_1">
 
 ## 2. Resumen del proyecto
 
