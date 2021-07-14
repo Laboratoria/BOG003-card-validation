@@ -27,7 +27,7 @@ La aplicación también enmascara los números de la tarjeta (menos los últimos
 
 ## Pantalla 3
 
-<img src=".https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/pantalla_3.png" alt="pantalla_3">
+<img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/pantalla_3.png" alt="pantalla_3">
 
 
 ## Pantalla del Campo Obligatorio
