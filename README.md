@@ -4,12 +4,13 @@ Cool Design es una tienda online de ropa para dama, cuya funcionalidad le permit
 
 Esta tienda está dirigida principalmente a mujeres entre los 18 a 40 años que tenga una Tarjeta Crédito
 
-##PROTOTIPO
+## PROTOTIPO
 
 <img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/propotipo_1.png">
 <img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/pantalla_2.png">
 <img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/pantalla_3.png">
-##Pantalla 1
+
+## Pantalla 1
 
 
 
@@ -19,7 +20,7 @@ Esta tienda está dirigida principalmente a mujeres entre los 18 a 40 años que 
 
 <img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/pantalla_2.png" alt="pantalla_2">
 
-## Pantalla del Campo Obligato
+## Pantalla del Campo Obligatorio
 
 <img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/campo_obligatorio.PNG" alt="pantalla_2">
 
