@@ -4,7 +4,7 @@ Cool Design es una tienda online de ropa para dama, cuya funcionalidad le permit
 
 Esta tienda está dirigida principalmente a mujeres entre los 18 años y un rango de edad aproximado hasta los 50 años, por el estilo de ropa que vende la tienda.
 
-##PROTOTIPO
+## PROTOTIPO
 
 Tiene un diseño minimalista y fácil de usar para que la compra se realice de manera rápida y sencilla.
 
@@ -12,11 +12,11 @@ El validador de tarjetas de crédito es fácil de usar, y asegura a la tienda qu
 
 La aplicación también enmascara los números de la tarjeta (menos los últimos 4 dígitos) para que el usuario se sienta seguro al ingresar su número de tarjeta a la página web.
 
-<img src="./img/prototipo_1.png" alt="prototipo">
-<img src="./img/prototipo_2.png" alt="prototipo">
-<img src="./img/prototipo_3.png" alt="prototipo">
+<img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/propotipo_1.png" alt="prototipo">
+<img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/propotipo_2.png" alt="prototipo">
+<img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/propotipo_3.png">
 
-##Pantalla 1gi
+##Pantalla 1
 <img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/pantalla_1.png" alt="pantalla_1">
 
 ## Pantalla 2
@@ -31,4 +31,5 @@ La aplicación también enmascara los números de la tarjeta (menos los últimos
 ## Pantalla del Campo Obligatorio
 
 <img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/campo_obligatorio.PNG" alt="pantalla_2">
+
 
