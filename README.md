@@ -6,9 +6,9 @@ Esta tienda está dirigida principalmente a mujeres entre los 18 a 40 años que 
 
 ##PROTOTIPO
 
-<img src="./img/prototipo_1.png" alt="pantalla_1">
-<img src="./img/prototipo_2.png" alt="pantalla_1">
-<img src="./img/prototipo_3.png" alt="pantalla_1">
+<img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/propotipo_1.png">
+<img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/pantalla_2.png">
+<img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/pantalla_3.png">
 ##Pantalla 1
 
 
@@ -25,7 +25,7 @@ Esta tienda está dirigida principalmente a mujeres entre los 18 a 40 años que 
 
 ## Pantalla 3
 
-<img src=".https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/pantalla_3.png" alt="pantalla_3">
+<img src="https://github.com/adriana17soto/BOG003-card-validation/blob/master/src/img/pantalla_3.png" alt="pantalla_3">
 
 * 
 ### 
