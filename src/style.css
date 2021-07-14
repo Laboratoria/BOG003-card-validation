@@ -1,0 +1,155 @@
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+.nav {
+    background: #F8E1D8;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 80px;
+    padding: 40px;
+    margin: 0px;    
+}
+
+#iconCart{
+    width: 25px; 
+    margin: 3px 10px 10px 1120px;
+    position: absolute;
+ }
+
+#product-container {
+    text-align: center;
+}   
+
+.product {
+    border-radius: 20px;
+    display:inline-block;
+    margin: 80px;
+    padding: 20px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.404);
+    text-align: center;
+    
+}
+
+.product img {
+    width: 350px;
+}
+
+
+/* form */
+#compra {
+    font-size: 30px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+#content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#form-register { 
+    display: flex;
+    justify-content: center;
+    width:500px;
+    padding: 25px 30px;
+    margin: auto;
+    font-family: sans-serif;
+    border-radius: 2px;
+}
+
+#tarjeta{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    margin: -45px 435px;
+    position: relative;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    margin-right: 2em;
+}
+
+.form-group1{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.form-group input {
+    width: 244px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:#9d9ed888;
+}
+
+.form-group1 input {
+    width: 244px;
+    height: 30px;
+    background-color: #9d9ed888;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 18px;
+}
+
+#btnComprar, #btnValidar{    
+    background: #f3cec1fa;
+    color: black;
+    border: 0;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btns {
+    text-align: center;
+}
+
+/* footer links */
+
+.social-media {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.links a i {
+    font-size: 2rem;
+
+
+}   
+
+#pantalla3{
+    font-size: 40px;
+    text-align: center;
+}
+
+#imagGreen{
+    width: 200px;
+    margin: 2px;
+}
+
+#btnRegresar{ 
+    background: #E0C1C1;
+    opacity: 2;
+    border: 1px;
+    color: black;
+    font-size: 14px;
+    margin: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    
+
+}

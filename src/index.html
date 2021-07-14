@@ -1,14 +1,101 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tarjeta de crédito válida</title>
+    <!-- Logo de la empresa en la pestaña de nuestra página-->
+    <link rel="icon" href="img/silueta.png" />
+    <!-- Enlace para el uso de iconos en el header-->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header id="container">
+      <div class="nav">
+        <!-- Logo de la Tienda -->
+        <img src="img/silueta.png" alt="Logo" />
+        <!--Titulo principal, nombre de la tienda-->
+        <h1>COOL DESIGN</h1>
+        <!--Boton al carrito de compras-->
+        <!--<a href="#cart" id="mostrarpantalla"><img src="img/cart.png" alt="Carrito de Compras" class="icon-cart"></a>-->
+        <img id="iconCart" src="img/cart.png" />
+      </div>
+    </header>
+    <main>
+      <!--productos de la tienda-->
+      <div id="product-container">
+        <div class="product">
+          <img src="img/1.jpg" />
+          <h3>Conjunto Casual</h3>
+          <p>$165.000</p>
+        </div>
+        <div class="product">
+          <img src="img/2.jpg" />
+          <h3>Camiseta Roja</h3>
+          <p>$43.000</p>
+        </div>
+      </div>
+
+      <section id="content">
+        <h3 id="compra">Realizar Compra</h3>
+        <!--Formulario de la compra-->
+        <img id="tarjeta" src="img/tarjeta.png" />
+        <form id="form-register">
+          <div class="form-group">
+            <label for="card">N° Tarjeta de Crédito</label>
+            <input
+              id="tarjetaDeCredito"
+              type="text"
+              required=""
+              maxlength="16"/>
+            <br />
+            <label for="name">Nombre y apellidos</label>
+            <input type="text" name="name" />
+            <br />
+          </div>
+          <br />
+          <div class="form-group1">
+            <label for="city">Ciudad y dirección</label>
+            <input type="text" name="icity" required="" />
+            <br />
+            <label for="email">Email</label>
+            <input type="email" name="iemal" />
+            <br />
+          </div>
+        </form>
+        <div class="btns">
+          <button id="btnValidar" type="button" name="button">Validar</button>
+          <button id="btnComprar" type="submit" name="btncompra">
+            Comprar
+          </button>
+        </div>
+      </section>
+    </main>
+    <section id="realizarcompra">
+      <div id="pantalla3">
+        <h3>¡Tu compra ha sido exitosa!</h3>
+        <img src="img/chek.png" alt="Logo" id="imagGreen" />
+        <br />
+        <button id="btnRegresar" type="button">Regresar</button>
+        <br />
+      </div>
+    </section>
+    <!--Footer-->
+    <footer class="social-media">
+      <p>@ 2021. Cool Design, Adriana y Laura</p>
+      <div class="links">
+        <a ref="#">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a ref="#">
+          <i class="bx bxl-facebook-square"></i>
+        </a>
+      </div>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
