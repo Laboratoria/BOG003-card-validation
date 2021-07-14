@@ -16,9 +16,10 @@ const mostrarpantalla = () => {
   document.getElementById("realizarcompra").style.display = "none";
   document.getElementById("pantalla3").style.display = "none";
 }
+iconCart.addEventListener("click", mostrarpantalla);
 
 //Interacción de la tercera pantalla, cuando hace click en el botón compra lo redirige a la pantalla 3.
-iconCart.addEventListener("click", mostrarpantalla);
+let btnComprar = document.getElementById("btnComprar")
 const mostrarpantalla3 = () => {
   document.getElementById("product-container").style.display = "none";
   document.getElementById("content").style.display = "none";
@@ -26,7 +27,7 @@ const mostrarpantalla3 = () => {
   document.getElementById("realizarcompra").style.display = "block";
   document.getElementById("pantalla3").style.display = "block";
 }
-btnComprar.addEventListener("click", mostrarpantalla3);   
+btnComprar.addEventListener("click", mostrarpantalla3);  
 
 
 //Interacción de la tercera pantalla, cuando hace click en el botón regresar lo redirige a la pantalla 1.
