@@ -1,14 +1,221 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/ab53633cd5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
   </head>
+
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+
+    <header id="welcome-screen">
+      <section>
+        <!-- tarjeta de bienvenida de la pagina -->
+        <div class="welcome">
+          <b>BIENVENIDOS A GEKO STORE</b>
+        </div>
+
+          <!-- encabezado de la pagina/barra de navegacion de pantallas-->
+        <div class="shopping">
+          <nav class="menu">
+            <ul>
+              <li id="section-begin"><a href="">inicio</a></li>
+              <li id="section-menu-products"><a href="">productos</a></li>
+              <li id="section-contacts"><a href="">contactos</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- carrito de compras -->
+        <div id="cart-store" class="shopping-cart">
+          <a href=""><i class="fas fa-shopping-cart"></i></a>
+        </div>
+
+       <!-- primera imagen de inicio -->
+        <div id="photo-screen">
+          <img src="img/PROTOTIPO PAGINA 1.png" alt="logo de geko">
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- muestra de segunda pantalla y inicio de las demas pantallas -->
+      <section class="Section-products" id="section-products">
+        <div id="section-clothes">
+          <h1>Ropa</h1>
+          <a href=""></a><img src="img/ROPA.png" alt="seccion-ropa">
+        </div>
+        <!-- primera sección pantalla de ropa y productos de ropa -->
+        <div id="products-section-clothes" hidden show>
+         <h2 class="text-products">seccion ropa</h2>
+         <img src="img/SECCION ROPA 1.png" alt="ropa">
+          <p><b>
+            abrigo terciopelo
+            $ 100.000
+          </b>
+          </p>
+          <img src="img/SECCION ROPA 2.png" alt="ropa">
+          <p><b>
+            vestido negro gamusa
+            $ 60.000
+          </b>
+          </p>
+          <img src="img/SECCION ROPA 3.png" alt="ropa">
+          <p><b>
+            set blanco falda y abrigo corto peluche
+            $ 80.000
+          </b>
+          </p>
+        </div>
+      </section>
+      <!-- segunda seccion pantalla de accesorios y productos de accesorios -->
+      <section class="Section-products">
+        <div id="section-accessories">
+         <h1>Accesorios</h1>
+         <a href=""></a><img src="img/ACCESORIOS.png" alt="seccion-accesorios">
+       </div>
+        <div id="products-section-accessories" hidden show>
+         <h2 class="text-products">seccion accesorios</h2>
+         <img src="img/SECCION ACCESORIOS 1.png" alt="accesorio">
+          <p><b>
+            audifonos gato pushen
+            $ 40.000
+          </b>
+          </p>
+         <img src="img/SECCION ACCESORIOS 2.png" alt="accesorio">
+          <p><b>
+            peluches de conejo set de 12
+            $ 70.000
+          </b>
+          </p>
+         <img src="img/SECCION ACCESORIOS 3.png" alt="accesorio">
+          <p><b>
+            joker rosado y negro con evilla de corazon
+            $ 20.000
+          </b>
+          </p>
+        </div>
+      </section>
+      <!-- tercera seccion pantalla de maquillaje y productos de maquillaje -->
+      <section class="Section-products">
+        <div id="section-makeup">
+          <h1>Maquillaje</h1>
+          <a href=""></a><img src="img/MAQUILLAJE.png" alt="seccion-accesorios">
+        </div>
+        <div id="products-section-makeup" hidden show>
+         <h2 class="text-products">seccion maquillaje</h2>
+         <img src="img/SECCION MAQUILLAJE 1.png" alt="maquillaje">
+          <p><b>
+            set de brochas sakura card captor
+            $ 80.000
+          </b>
+          </p>
+          <img src="img/SECCION MAQUILLAJE 2.png" alt="maquillaje">
+          <p><b>
+            labial neko rojo intenso
+            $ 10.000
+          </b>
+          </p>
+          <img src="img/SECCION MAQUILLAJE 3.png" alt="maquillaje">
+          <p><b>
+            sombras tonos tierra marca peach
+            $ 25.000
+          </b>
+          </p>
+        </div>
+      </section>
+      <!-- pantalla del carrito de compras y validacion de la tarjeta -->
+      <div class="validation-formulary" id="validation-formulary">
+        <section id="card-validator"  class="card-validator-1">
+          <div  id="register"  class="register-1">
+            <h3>ingrese sus datos para continuar con su compra</h3>
+            <input class="controls" type="text" name="name" placeholder="ingrese sus nombres" required>
+            <input class="controls" type="text" name="last name" placeholder="ingrese sus apellidos">
+            <input class="controls" type="email" name="email" placeholder="ingrese su correo">
+            <input class="controls" type="text" name="card-validator" id="number-tarjet" maxlength="16" placeholder="ingrese el numero de su Tarjeta">
+            <span id="warning">Advertencia</span>
+            <p>esta de acuerdo con <a href="">terminos y condiciones</a></p>
+            <input class="button" id="button-confirm" type="button" value="confirmar pago">
+          </div>
+        </section>
+       <!-- pagina de tarjeta valida -->
+        <section id="screen-valid" style = "display:none">
+          <div>
+            <div class="confirmation">
+              <h4>su compra a sido exitosa</h4>
+              <img src="img/img-final-target-valid.jpg" alt="imagen-final">
+              <h5>le llegara al correo el dia que llegara su producto</h5>
+              <button class= "button-final" id="button-follow">aceptar</button>
+            </div>
+          </div>
+        </section>
+       <!-- pagina de tarjeta no valida -->
+        <section id="screen-no-valid" style = "display:none">
+          <div>
+            <div class="confirmation">
+              <h4>a ocurrido un problema con el sistema</h4>
+              <img src="img/img-final-target-novalid.jpg" alt="imagen-final">
+              <h5>su tarjeta no es valida porfavor digite una nueva</h5>
+              <button class= "button-final" id="button-return">aceptar</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer id="section-footer">
+
+      <!-- seccion de pie de pagina, contenedor de imagen logo 2 -->
+      <div class="container-footer">
+        <div class="box-footer">
+          <div class="logo">
+            <img src="img/logo.png" alt="logo-de-footer">
+          </div>
+
+          <!-- seccion de terminos -->
+          <div class="terms">
+            <p>productos 100% hechos en colombia. se hacen envios internacionales,derechos
+              reservados, se reciben tarjetas de credito visa y mastercard si necesita un
+              pedido al por mayor escribanos al correo geko_store@gmail.com</p>
+          </div>
+        </div>
+
+        <!-- seccion opciones de posibles soluciones para el usuario -->
+        <div class="box-footer">
+          <h2>Soluciones</h2>
+          <a href="">Cambios y devoluciones</a>
+          <a href="">Politicas de envio</a>
+          <a href="">Mapa del sitio</a>
+          <a href="">Localiza tu pedido</a>
+        </div>
+
+       <!-- seccion mas informacion sobre la compañia -->
+        <div class="box-footer">
+          <h2>Compañia</h2>
+          <a href="">Acerca de</a>
+          <a href="">Politicas de privacidad</a>
+          <a href="">Contactanos</a>
+          <a href="">Politica de cookies</a>
+        </div>
+
+         <!-- seccion para visitar las redes sociales disponibles -->
+        <div class="box-footer">
+          <h2>redes sociales</h2>
+          <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i>Facebook</a>
+          <a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram"></i>Instagram</a>
+          <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i>Twitter</a>
+        </div>
+      </div>
+
+      <!-- seccion de copyright para conservar los derechos de la pagina -->
+      <div class="box-copyright">
+        <hr>
+        <p>todos los derechos reservados © 2021 <b>geko store</b></p>
+      </div>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
