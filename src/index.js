@@ -79,7 +79,7 @@ document.getElementById("cart-store").addEventListener("click", () => {
   document.getElementById("screen-no-valid").style.display = "none";
 });
 
-/***************************ZONA DE VALIDACION DE LA TARJETA CON MASKIFY**************************/
+/**************ZONA DE VALIDACION DE LA TARJETA CON MASKIFY******************/
 
 
 /* crea variable que me lleva al elemento ID "password-validator" y extrae el string
