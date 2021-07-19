@@ -30,7 +30,7 @@ __los cambios recibidos en el feedback fueron los siguientes:__
   para que no solo sea la tarjeta si no el nombre, apellido, correo electronico
   entre otros ya que como es una tienda de envios de ropa es mejor agregar datos mas
   necesarios para la pagina.
-![Prototipo-primer-diseño](PROTOTIPO 1.png)
+![Prototipo-primer-diseño](https://github.com/leidypaez/BOG003-card-validation/blob/main/src/img/PROTOTIPO%201.png)
 
 ## 4. Prototipos realistas
 1. ENCABEZADO: El encabezado estara compuesto por una bienvenida grande la cual
@@ -52,31 +52,31 @@ __los cambios recibidos en el feedback fueron los siguientes:__
 INSERTAR IMAGEN DE LOS PROTOTIPOS REALISTAS
 __estos prototipos fueron creados en ilustrator y photoshop__
 insertar imagen de prototipos realistas
-![Imagen-de-prototipo](PROTOTIPOS REALISTAS.png)
+![Imagen-de-prototipo](https://github.com/leidypaez/BOG003-card-validation/blob/main/src/img/PROTOTIPOS%20REALISTAS.png)
 
 ### PROTOTIPO FINAL DE LA PAGINA
 
-![Imagen-de-imagen-final](pantalla-pagina-final)
+![Imagen-de-pagina-final](https://github.com/leidypaez/BOG003-card-validation/blob/main/src/img/pantalla-paginal-final.png)
 
 ### Segunda-tercera-cuarta-quita pantalla
-![Imagen-de-ropa](Pantalla-final-ropa.png)
-![Imagen-de-accesorios](Pantalla-final-accesorios.png)
-![Imagen-de-maquillaje](Pantalla-final-maquillaje.png)
-![Imagen-de-formulario](pantalla-formulario.png)
-![Imagen-de-pagina-valida](pantalla-pagina-valida.png)
-![Imagen-de-paginanovalida](pantalla-pagina-novalida.png)
-![Imagen-de-footer](Pantalla-final-footer.png)
+![Imagen-de-ropa](https://github.com/leidypaez/BOG003-card-validation/blob/main/src/img/Pantalla-final-ropa.png)
+![Imagen-de-accesorios](https://github.com/leidypaez/BOG003-card-validation/blob/main/src/img/Pantalla-final-accesorios.png)
+![Imagen-de-maquillaje](https://github.com/leidypaez/BOG003-card-validation/blob/main/src/img/Pantalla-final-maquillaje.png)
+![Imagen-de-formulario](https://github.com/leidypaez/BOG003-card-validation/blob/main/src/img/pantalla-formulario.png)
+![Imagen-de-pagina-valida](https://github.com/leidypaez/BOG003-card-validation/blob/main/src/img/pantalla-pagina-valida.png)
+![Imagen-de-paginanovalida](https://github.com/leidypaez/BOG003-card-validation/blob/main/src/img/pantalla-pagina-novalida.png)
+![Imagen-de-footer](https://github.com/leidypaez/BOG003-card-validation/blob/main/src/img/pantalla-final-footer.png)
 
 
 5. ## Diagrama
-![Imagen-de-diagrama](_diagram.jpeg)
+![Imagen-de-diagrama](https://github.com/leidypaez/BOG003-card-validation/blob/main/src/img/_diagram.jpeg)
 
 6. ## Validacion de la tarjeta
 Geko store es una tienda diseñada para comprar en linea con una tarjeta de credito, la cual tiene el uso del algoritmo de luhn y de el uso de maskify para la proteccion de sus datos.
 
 
 ### Testeo
-![Imagen-de-testeo](testeo.png)
+![Imagen-de-testeo](https://github.com/leidypaez/BOG003-card-validation/blob/main/src/img/testeo.png)
 
 7. ## Autoria
 Este documento y pagina es creación de leidy alexandra garavito páez
