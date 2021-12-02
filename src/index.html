@@ -1,14 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+
+<head>
+  <meta charset="utf-8">
+  <title>Escuchame audio libros</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   </head>
+
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class=" header">
+      <img src="./IMAGENES/Escuhame-logonew.png" alt="nuestro logo" class="imglogo">
+    </header>
+
+    <section class="pagina1 " id="presentacion">
+      <div class="Portada flexbox">
+        <h1>Somos <strong>Escúchame</strong> te ofrecemos una gran variedad de audio libros en <span>español</span>.
+          <br>Podras encontrar: romance, misterio, drama, suspenso y mucho más.<br>
+        </h1>
+        <img class="imagenportada" src="./IMAGENES/imgpag1.png" alt="aqui va el la portada">
+        <button id="prueba">Comenzar prueba gratis por 7 días </button>
+      </div>
+    </section>
+
+    <section class="pagina2 esconder" id="formulario">
+      <div class="contenedor">
+        <!--Tarjeta -->
+        <section class="tarjeta" id="tarjeta">
+          <div class="delantera">
+            <div class="logo-marca">
+              <img src="./IMAGENES/MasterCard.png" alt="">
+            </div>
+            <img src="./IMAGENES/chip.png" class="chip" alt="">
+            <div class="datos">
+              <div class="grupo" id="numero">
+                <p class="label">Numero tarjeta</p>
+                <p class="numero">### ### ###</p>
+              </div>
+              <div class="flexbox">
+                <div class="grupo" id="nombre">
+                  <p class="label">Nombre de la Tarjeta</p>
+                  <p class="nombre">Nombre</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Formulario  --->
+        <form id="formulario-tarjera" class="formulario-tarjeta">
+          <div class="grupo">
+            <label for="inputNumero">Numero Tarjeta</label>
+            <input type="text" name="inputNumero" id="inputNumero" maxlength="16" autocomplete="off" required>
+          </div>
+          <div class="grupo">
+            <label for="inputNombre">Nombre de la tarjeta</label>
+            <input type="text" name="inputNombre" id="inputNombre" maxlength="16" autocomplete="off" required>
+          </div>
+          <div class="flexbox">
+            <div class="grupo ccv">
+              <label for="inputcvv">cvv</label>
+              <input type="text" name="inputcvv" id="inputcvv" maxlength="3" required>
+            </div>
+          </div>
+          <button type="button" class="btn-validacion" id="btn-validacion">Validación</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="paginaFinal esconder" id="finalizacion">
+      <div class="compra">
+        <article class="informativo">
+          <h2> ¡Gracias por elegirnos! </h2>
+          <p class="descripcion"> Desde este momento puedes empezar a disfrutar
+            de todos los audio libros que tenemos para ti, tu tarjeta es valida </p>
+          <figure class="portaimagen">
+            <img class="imagen-pg3" src="IMAGENES/readgirl3.png" alt="imagen">
+          </figure>
+        </article>
+      </div>
+    </section>
+    
     <script src="index.js" type="module"></script>
   </body>
-</html>
+
+  </html>
