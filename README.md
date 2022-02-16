@@ -2,8 +2,8 @@
 
 ## 1. Descripción
 
-Página web para validar si el numero de una tarjeta de credito es valiodo o no, se utilizo el algoritmo de Luhn para la validacion delnumero de tarjeta.
-Es una página de ataudiolibros “Escúchame” 100% en español donde los usuarios tendrán una prueba gratis de 7 días y podrán disfrutar de todos los beneficios que se encuentran en la página web, para ello deberá realizar una suscrición donde se les pide la información de su tarjeta de crédito.
+Página web para validar si el numero de una tarjeta de crédito es valido o no, se utilizo el algoritmo de Luhn para la validacion de los numeros de tarjeta.
+Es una página de audiolibros con el nombre “Escúchame” 100% en español donde los usuarios tendrán una prueba gratis de 7 días y podrán disfrutar de todos los beneficios que se encuentran en la página web, para ello deberá realizar una suscrición donde se les pide el numero de la tarjeta de crédito.
 
 ## 2. Interfaz de usuario (UI)
 
@@ -67,9 +67,9 @@ En este archivo se encuentra todo el código que tenga que ver con la interacci�
 
 
 ##### Prototipo de alta fidelidad.
-![Prototpo-alta-fidelidad-1era-pagina](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
-![Prototpo-alta-fidelidad-2da-pagina](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
-![Prototpo-alta-fidelidad-3era-pagina](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+![Prototpo-alta-fidelidad-1era-pagina](https://github.com/Lusaenz/BOG003-card-validation/blob/luisa/README/DISE%C3%91-FINAL-PAG1.png)
+![Prototpo-alta-fidelidad-2da-pagina](https://github.com/Lusaenz/BOG003-card-validation/blob/luisa/README/DISE%C3%91-FINAL-PAG2.png)
+![Prototpo-alta-fidelidad-3era-pagina](https://github.com/Lusaenz/BOG003-card-validation/blob/luisa/README/DISE%C3%91-FINAL-PAG3.png)
 
 ##### Visializacion de la página web.
 En este [Link](https://www.youtube.com/watch?v=f0zL6Ot9y_w) podras interactuar con la página web.
