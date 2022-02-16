@@ -66,12 +66,12 @@ En este archivo se encuentra todo el código que tenga que ver con la interacci�
 (seleccionar, actualizar y manipular elementos del DOM y eventos).
 
 
-##### Prototipo de alta fidelidad.
+## 4. Prototipo de alta fidelidad.
 ![Prototpo-alta-fidelidad-1era-pagina](https://github.com/Lusaenz/BOG003-card-validation/blob/luisa/README/DISE%C3%91-FINAL-PAG1.png)
 ![Prototpo-alta-fidelidad-2da-pagina](https://github.com/Lusaenz/BOG003-card-validation/blob/luisa/README/DISE%C3%91-FINAL-PAG2.png)
 ![Prototpo-alta-fidelidad-3era-pagina](https://github.com/Lusaenz/BOG003-card-validation/blob/luisa/README/DISE%C3%91-FINAL-PAG3.png)
 
-##### Visializacion de la página web.
+## 5. Visualización de la página web.
 En este [Link](https://www.youtube.com/watch?v=f0zL6Ot9y_w) podras interactuar con la página web.
 
 ***
