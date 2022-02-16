@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .esconder {
   display: none;
 }
@@ -187,21 +191,23 @@ h3 {
 }
 /*Estilos de la pagina 3*/
 .informativo {
-  height: 500px;
+  height: 400px;
   width: 1000px;
   border: 1px solid gray;
   border-radius: 10px;
   margin-bottom: 15px;
-  padding: 30px;
-  display: inline-block;
+  padding: 20px;
+  display: flex;
   align-items: center;
   color: #F8F8FF;
   font-family: 'Nanum Gothic', sans-serif;
-  font-weight: 700;
-  font-size: 30px;
+  font-weight: 700500;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/*Estilo boton pag1*/
+/*Estilo boton pag1-pagina2*/
 #prueba {
   background-color: #FF00FF;
   border-radius: 6px;
@@ -214,4 +220,17 @@ h3 {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+#btn-validacion{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #FF00FF;
+  border-radius: 6px;
+  border-color: #FF00FF;
+  color: white;
+  padding: 3px 10px;
+  text-align: center;
+  font-size: 15px;
+  margin: 4px 2px;
 }

@@ -27,8 +27,9 @@ btnValidacion.addEventListener('click', () => {
     formulario.classList.add('esconder')
     ubicacionNumer.innerText += contenedorNumero
     paginaTres.classList.remove('esconder')
-  } else {
-    alert("Ingrese un número de tarjeta valido por favor");
+  }else {
+     alert('Ingrese un número de tarjeta valido por favor')
+   
   }
 });
 //input numero de tarjeta
